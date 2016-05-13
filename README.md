@@ -17,22 +17,22 @@ Import TYCollectionView.h header file.
 
 How to use:(two steps)
 
-//两步搞定
+两步搞定：
 
-//1.导入TYCollectionView类的主头文件，传入一个数组创建轮播
+1.导入TYCollectionView类的主头文件，传入一个数组创建轮播
 
     TYCollectionView *collectionV = [[TYCollectionView alloc]initWithImageArray:imageArray];
     
-//2.调用start实例方法即可
+2.调用start实例方法即可
     
     [collectionV start];
     
-//提供了一个设置轮播位置的init方法，default在最顶部
+PS：提供了一个设置轮播位置的init方法，default在最顶部
 
 
  TYCollectionView *collectionV = [[TYCollectionView alloc]initWithImageArray:imageArray theFrame:CGRectMake(0, 0, 414, 150)];
 
     
-    详情参见demo哦
+详情参见demo哦
     
-    不足和bugs，欢迎指正和补充。
+不足和bugs，欢迎指正和补充。
